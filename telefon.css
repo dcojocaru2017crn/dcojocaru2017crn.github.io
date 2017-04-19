@@ -1,0 +1,52 @@
+/*Mobil*/
+
+
+@media only screen and (max-width: 479px) and (orientation: portrait)
+
+{
+	body {
+		background-color: pink;
+	}
+
+	p{
+		font-family: Helvetica, Monospace
+	}
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+
+{
+	body {
+		background-color: silver;
+	}
+
+	p{
+		font-family: Times, Helvetica
+	}
+}
+
+/*PC*/
+
+@media only screen and (min-width: 480px) and (orientation: portrait)
+
+{
+	body {
+		background-color: silver;
+	}
+
+	p{
+		font-family: Times, Georgia
+	}
+}
+
+@media only screen and (min-width: 480px) and (orientation: landscape)
+
+{
+	body {
+		background-color: silver;
+	}
+
+	p{
+		font-family: Arial, Helvetica
+	}
+}
