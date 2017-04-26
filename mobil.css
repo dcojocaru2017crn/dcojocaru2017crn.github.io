@@ -1,0 +1,58 @@
+/*Movil*/
+
+@media only screen and (max-width: 479px) and (orientation: portrait)
+
+{
+	body {
+		background-color: pink;
+	}
+	div { background-color: red;
+	width: 100%;
+	margin:10px;
+	 }
+
+	p{
+		font-family: Helvetica, Monospace
+	}
+}
+
+@media only screen and (max-width: 479px) and (orientation: landscape)
+
+{
+	body {
+		background-color: silver;
+	}
+	div { background-color: red;
+	width: 100%;
+	height: 100px;
+	margin:10px;
+	float: left;
+ }
+
+
+	p{
+		font-family: Times, Helvetica
+	}
+}
+
+
+/*PC*/
+
+@media only screen and (min-width: 480px) 
+
+{
+	body {
+		background-color: green;
+	}
+
+	div { background-color: red;
+	width: 40%;
+	height: 200px;
+	margin:10px;
+	float: left;
+ }
+
+	p{
+		font-family: Times, Georgia
+	}
+}
