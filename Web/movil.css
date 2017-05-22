@@ -1,5 +1,5 @@
 /*mobil*/
-@media only screen and (max-width: 768px) and (orientation: portrait){
+@media only screen and (max-width: 650px) and (orientation: portrait){
 	body{
 		margin: 0;
 		font-family: Helvetica, Times;
@@ -118,7 +118,7 @@ h1{
 
 }
 
-@media only screen and (max-width: 768px) and (orientation: landscape){
+@media only screen and (max-width: 650px) and (orientation: landscape){
 	body{
 		margin: 0;
 		font-family: Helvetica, Times;
