@@ -38,7 +38,8 @@ header label:hover {
 /*menu*/
 .menu{
 	margin: 0;
-	float: right;
+	float: left;
+
 
 
 }
